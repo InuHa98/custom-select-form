@@ -41,12 +41,12 @@ Select multiple items:
     <script src="src/custom-select-form.js"></script>
 </body>
 ```
-Add class="**js-custom-select**" to the select tag to use.
+Add class="**js-custom-select**" to the **select** tag to use.
 
 ## Options
 
 ### `data-placeholder`
-text displayed when no drug item is selected.
+Text displayed when no drug item is selected.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/3.png)
 
@@ -98,7 +98,7 @@ Show search bar.
 ```
 
 ##`data-html`
-show html in **option* tag.
+Show html in **option* tag.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/5.png)
 
