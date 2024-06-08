@@ -1,8 +1,11 @@
 # custom-select-form
 
 Replace default select to select with more eye-catching css.
+## Required
+- Jquery
+- FontAwesome
 
-## example
+## Example
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/1.png)
 
