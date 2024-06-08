@@ -79,7 +79,17 @@ Maximum select height limit.
 </select>
 ```
 
+## `enable-search`
+Show search bar.
+
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/2.png)
+
+```html
+<select class="js-custom-select" enable-search="true">
+    ...
+</select>
+```
+
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/4.png)
 
