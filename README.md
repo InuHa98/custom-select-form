@@ -6,6 +6,10 @@ Replace default select to select with more eye-catching css.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/1.png)
 
+Select multiple items:
+
+![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/4.png)
+
 ## Installation
 
 ```html
@@ -90,7 +94,17 @@ Show search bar.
 </select>
 ```
 
-
-![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/4.png)
+##`data-html`
+show html in **option* tag.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/5.png)
+
+```html
+<select class="js-custom-select" data-placeholder="-- Please select item --" multiple>
+    <option value="0">Item 0</option>
+    <option value="1">Item 1</option>
+    <option value="2">Item 2</option>
+    <option value="3" data-html="<span class='flex'><img src='avatar.png' /> <b>InuHa98</b></span>"></option>
+</select>
+```
+
