@@ -34,11 +34,52 @@ Replace default select to select with more eye-catching css.
     <script src="src/custom-select-form.js"></script>
 </body>
 ```
-Add class="[b]js-custom-select[/b]" to the select tag to use.
+Add class="**js-custom-select**" to the select tag to use.
 
-![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/2.png)
+## Options
+
+### `data-placeholder`
+text displayed when no drug item is selected.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/3.png)
+
+```html
+<select class="js-custom-select" data-placeholder="-- Please select item --">
+    ...
+</select>
+```
+
+### `data-min-width`
+Minimum select width limit.
+```html
+<select class="js-custom-select" data-min-width="200px">
+    ...
+</select>
+```
+
+### `data-max-width`
+Maximum select width limit.
+```html
+<select class="js-custom-select" data-max-width="500px">
+    ...
+</select>
+```
+### `data-min-height`
+Minimum select height limit.
+```html
+<select class="js-custom-select" data-min-width="50px">
+    ...
+</select>
+```
+### `data-max-height`
+Maximum select height limit.
+```html
+<select class="js-custom-select" data-max-width="100px">
+    ...
+</select>
+```
+
+![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/2.png)
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/4.png)
 
