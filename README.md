@@ -34,7 +34,7 @@ Replace default select to select with more eye-catching css.
     <script src="src/custom-select-form.js"></script>
 </body>
 ```
-
+Add class="[b]js-custom-select[/b]" to the select tag to use.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/2.png)
 
