@@ -18,7 +18,17 @@ Replace default select to select with more eye-catching css.
 </head>
 <body>
 
-    ...
+    <div class="container">
+        <label>Select item:</label>
+
+        <select class="js-custom-select">
+            <option value="0">Item 0</option>
+            <option value="1">Item 1</option>
+            <option value="2">Item 2</option>
+            <option value="3">Item 3</option>
+        </select>
+
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="src/custom-select-form.js"></script>
