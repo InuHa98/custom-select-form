@@ -399,9 +399,11 @@
                 if(default_select.length < 1) {
                     return;
                 }
-
+                let current_selected = default_select.find('option:selected') || default_select.find('option[selected]');
+                let current_value =  current_selected.val() || current_selected.text();
 
                 let selected_option = default_select.find('option[' + this._data.id_option + '="' + id_option + '"]');
+                let value = selected_option.val() || selected_option.text();
 
                 if(selected_option.length < 1) {
                     return;
@@ -424,7 +426,8 @@
                     }
                 }
                 select_container.click();
-                default_select.change();
+
+                (current_value != value) && default_select.change();
                 //this.build_title(select_container, default_select);
             });
 
