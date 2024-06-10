@@ -97,7 +97,7 @@ Show search bar.
 </select>
 ```
 
-##`data-html`
+## `data-html`
 Show html in **option* tag.
 
 ![alt](https://raw.githubusercontent.com/InuHa98/custom-select-form/main/demo/5.png)
@@ -110,4 +110,15 @@ Show html in **option* tag.
     <option value="3" data-html="<span class='flex'><img src='avatar.png' /> <b>InuHa98</b></span>"></option>
 </select>
 ```
+## `JSCustomSelect()`
+When adding a new element **select**, call **JSCustomSelect()** to re-render the select element.
 
+```script
+$('body').append(`
+<select class="js-custom-select">
+    <option value="0">Item 0</option>
+    <option value="1">Item 1</option>
+    <option value="2">Item 2</option>
+</select>`);
+JSCustomSelect();
+```
